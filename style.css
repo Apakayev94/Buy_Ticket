@@ -1,0 +1,115 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #dfe7ffc1;
+}
+.main {
+    height: 860px;
+    width: 700px;
+    margin: auto;
+    background-color: rgba(174, 208, 255, 0.785);
+    border: 1px solid rgb(19, 28, 97);
+    border-radius: 10px;
+    box-shadow: 6px 6px 8px #3e3ea4;
+    margin-top: 30px ;
+}
+.main-text-buy-ticket {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(71, 14, 132);
+    margin-top: 40px;
+    margin-left: 550px;
+    margin-bottom: 10px;
+}
+.line {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 6px #3e3ea4;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.second-text {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(14, 32, 132);
+    margin-top: 0px;
+    margin-left: 45px;
+    margin-bottom: 3px;
+    padding: 0px;
+}
+.input-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(14, 32, 132);
+    width: 600px;
+    margin-top: 0px;
+    margin-left: 45px;
+    margin-bottom: 8px;
+    padding: 0px; 
+}
+.input-radio-btn {
+    margin-left: 45px;
+}
+.input-radio-btn-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(14, 32, 132);
+    margin-left: 20px;
+}
+
+.main-text-output{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.btn {
+    background-color: rgba(249, 238, 255, 0.818);
+    border: 2px solid rgb(63, 38, 78);
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #8e3ea4;
+    margin-top: 10px ; 
+    margin-left: 45px;
+
+    position: relative;
+    padding: 6px 15px 6px 15px;
+    transition: all 0.2s ease-in-out;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(14, 32, 132);
+}
+.btn:hover {
+    background: #fff;
+    color: rgb(14, 32, 132);
+  }
+.btn:active {
+    background: #fff;
+    color: rgba(14, 32, 132, 0.500);
+    padding: 4px 12px 4px 12px;
+    margin-top: 12px ; 
+    margin-left: 47px;
+    margin-bottom: 2px;
+}
+  
+.main-text-output {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(14, 32, 132);
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-bottom: 0px;
+}
+.output-text {
+    margin-top: 0px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 6px;
+    color: rgb(14, 32, 132);
+}

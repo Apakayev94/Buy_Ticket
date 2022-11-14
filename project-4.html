@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Project 4</title>
+</head>
+<body>
+    <div class="main">
+        <p class="main-text-buy-ticket">Buy ticket</p>
+        <hr class="line" />
+        <form class="main-form">
+            <div class="form-grop">
+                <p class="second-text">Surname:</p>
+                <input class="input-text" type="text" name="lastName" value="Apakayev" required>
+            </div>
+            <div class="form-grop">
+                <p class="second-text">Name:</p>
+                <input class="input-text" type="text" name="name" value="Oleksandr" required>
+            </div>
+            <div class="form-grop">
+                <p class="second-text">Email:</p>
+                <input class="input-text" type="email" name="email" value="apakayev.aleksandr@gmail.com" required>
+            </div>
+            <div class="form-grop">
+                <p class="second-text">Money on the card:</p>
+                <input class="input-text" type="text" name="money" value=5000 required>
+            </div>
+            <div class="form-grop">
+                <p class="second-text">Date:</p>
+                <input class="input-text" type="date" name="date" required>
+            </div>
+            <div class="form-grop">
+                <p class="second-text">Time:</p>
+                <input class="input-text" type="time" name="time" value="21:00" required> 
+            </div>
+            <div class="form-grop-btm">
+                <button class="btn"id="btn" type="submit">BUY TICKET</button>
+            </div>
+            <div class="output">
+                <p class="main-text-output">Bolt buying process</p>
+                <hr class="line" />
+                <div class="output-text">
+                    <div id="output-text"><br/></div>
+                </div>
+            </div>
+        </form>
+    </div>
+ 
+    <script src="script.js"></script> 
+</body>
+</html>
